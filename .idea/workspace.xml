@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4f592c33-c5f5-4185-8e21-8d2df7de392d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jueSGNMsiMEiGyDFeOj5sfMUTD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f592c33-c5f5-4185-8e21-8d2df7de392d" name="Default Changelist" comment="" />
+      <created>1604658404004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604658404004</updated>
+      <workItem from="1604658406626" duration="21206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="32" y="-935" key="#Web_Browsers" timestamp="1604666241547">
+      <screen x="-559" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="32" y="-935" key="#Web_Browsers/0.0.1440.900/-559.-1440.2560.1440@-559.-1440.2560.1440" timestamp="1604666241547" />
+    <state x="-140" y="-980" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1604682689805">
+      <screen x="-240" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="-140" y="-980" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1440.900/-240.-1080.1920.1080@-240.-1080.1920.1080" timestamp="1604682555175" />
+    <state x="-140" y="-980" width="1720" height="880" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1440.877/-240.-1057.1920.1057@-240.-1057.1920.1057" timestamp="1604682689805" />
+    <state x="137" y="-816" width="556" height="552" key="find.popup" timestamp="1604696868722">
+      <screen x="-240" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="137" y="-816" width="556" height="552" key="find.popup/0.0.1440.900/-240.-1080.1920.1080@-240.-1080.1920.1080" timestamp="1604696868722" />
+    <state x="-57" y="-1088" width="586" height="735" key="find.popup/0.0.1440.900/-559.-1440.2560.1440@-559.-1440.2560.1440" timestamp="1604667703547" />
+    <state x="66" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1604689015827">
+      <screen x="-240" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="66" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-240.-1080.1920.1080@-240.-1080.1920.1080" timestamp="1604689015827" />
+  </component>
+</project>
