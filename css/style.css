@@ -582,12 +582,13 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .timeline-title {
   margin-top: 0;
+  margin-bottom: 8px;
 }
 
 .company {
   display: block;
-  margin-bottom: 1px;
-  margin-top: -4px;
+  margin-bottom: 0;
+  margin-top: -3px;
   font-size: 16px;
   font-weight: normal;
   color: #bfbfbf;

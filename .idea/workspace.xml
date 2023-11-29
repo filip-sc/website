@@ -6,22 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4f592c33-c5f5-4185-8e21-8d2df7de392d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-2.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-3.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-4.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-5.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-5.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-6.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-6.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style-7.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/impressum.html" beforeDir="false" afterPath="$PROJECT_DIR$/impressum.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/sendEmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/sendEmail.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
