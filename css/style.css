@@ -11,8 +11,8 @@
 *
 * ======================================================= */
 body {
-  font-family: "Space Mono", Arial, serif;
-  font-weight: 400;
+  font-family: "Roboto", Arial, serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.7;
   color: #4d4d4d;
@@ -64,8 +64,8 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Space Mono", Arial, serif;
-  font-weight: 400;
+  font-family: "Roboto", Arial, serif;
+  font-weight: 500;
   margin: 0 0 20px 0;
 }
 
@@ -264,7 +264,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-features .feature-left h3 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
   color: #fff;
 }
 #fh5co-features .feature-left p {
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .info {
   margin: 0;
   padding: 0;
-  width: 90%;
+  width: 100%;
   float: left;
 }
 @media screen and (max-width: 768px) {
@@ -586,7 +586,8 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .company {
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
+  margin-top: -4px;
   font-size: 16px;
   font-weight: normal;
   color: #bfbfbf;
@@ -595,6 +596,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline-body > p,
 .timeline-body > ul {
   margin-bottom: 0;
+  margin-top: 10px;
 }
 
 .timeline-body > p + p {
@@ -804,7 +806,7 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #FF9000;
   font-size: 16px;
   text-transform: uppercase;
-  font-weight: 400;
+  font-weight: 500;
   padding-left: 50px;
   padding-right: 50px;
 }
@@ -1087,9 +1089,9 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Space Mono", Arial, serif;
+  font-family: "Roboto", Arial, serif;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
