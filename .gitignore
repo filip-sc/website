@@ -6,6 +6,6 @@
 *.dylib
 
 # JetBrains IDEA
-.idea
+.idea/
 .DS_Store
 
