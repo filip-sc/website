@@ -1,463 +1,431 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SoftCrafts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="SoftCrafts - IT Consulting"/>
+    <title>SoftCrafts – Filip Thamasett | Cloud Architect &amp; Applied AI Engineer</title>
+    <meta name="description"
+          content="SoftCrafts IT Consulting – Filip Thamasett, freelance Cloud Architect & Applied AI Engineer. Cloud platforms and migrations on GCP and Azure, plus production LLM systems, RAG pipelines and agentic workflows."/>
 
-    <!-- Facebook and Twitter integration -->
-    <meta property="og:title" content=""/>
-    <meta property="og:image" content=""/>
-    <meta property="og:url" content=""/>
-    <meta property="og:site_name" content=""/>
-    <meta property="og:description" content=""/>
-    <meta name="twitter:title" content=""/>
-    <meta name="twitter:image" content=""/>
-    <meta name="twitter:url" content=""/>
-    <meta name="twitter:card" content=""/>
+    <meta property="og:title" content="SoftCrafts – Filip Thamasett"/>
+    <meta property="og:description" content="Freelance Cloud Architect & Applied AI Engineer. Cloud platforms on GCP and Azure, plus LLM systems, RAG and agentic workflows."/>
+    <meta property="og:url" content="https://softcrafts.io/"/>
+    <meta property="og:site_name" content="SoftCrafts"/>
+    <meta property="og:image" content="https://softcrafts.io/images/user-1.png"/>
+    <meta name="twitter:card" content="summary"/>
 
-    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <!--    <link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">-->
-
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="css/animate.css">
-    <!-- Icomoon Icon Fonts-->
-    <link rel="stylesheet" href="css/icomoon.css">
-    <!-- Bootstrap  -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-
-    <!-- Theme style  -->
-    <link rel="stylesheet" href="css/style-2.css">
-
-    <!-- Modernizr JS -->
-    <script src="js/modernizr-2.6.2.min.js"></script>
-    <!-- FOR IE9 below -->
-    <!--[if lt IE 9]>
-    <script src="js/respond.min.js"></script>
-    <![endif]-->
-
-    <!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
-    <link rel="stylesheet" id="theme-switch" href="css/style.css">
-    <link rel="stylesheet" href="css/color-preset-option.css">
-    <!-- END styleswitcher demo -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
 
-<div class="fh5co-loader"></div>
+<!-- Icon sprite -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+        <symbol id="i-spark" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.9 5.1L19 10l-5.1 1.9L12 17l-1.9-5.1L5 10l5.1-1.9z"/><path d="M19 15l.8 2.2L22 18l-2.2.8L19 21l-.8-2.2L16 18l2.2-.8z"/></symbol>
+        <symbol id="i-cloud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></symbol>
+        <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></symbol>
+        <symbol id="i-users" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></symbol>
+        <symbol id="i-code" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></symbol>
+        <symbol id="i-tool" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></symbol>
+        <symbol id="i-net" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="6" rx="1"/><rect x="2" y="16" width="6" height="6" rx="1"/><rect x="16" y="16" width="6" height="6" rx="1"/><path d="M5 16v-3h14v3M12 8v5"/></symbol>
+        <symbol id="i-award" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="7"/><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/></symbol>
+        <symbol id="i-cap" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></symbol>
+        <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></symbol>
+        <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+        <symbol id="i-linkedin" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></symbol>
+        <symbol id="i-github" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .3a12 12 0 0 0-3.8 23.38c.6.12.83-.26.83-.57L9 21.07c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.08-.74.09-.73.09-.73 1.2.09 1.83 1.24 1.83 1.24 1.07 1.83 2.8 1.3 3.49 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18a4.65 4.65 0 0 1 1.23 3.22c0 4.61-2.8 5.63-5.48 5.92.42.36.81 1.1.81 2.22l-.01 3.29c0 .31.2.69.82.57A12 12 0 0 0 12 .3"/></symbol>
+    </defs>
+</svg>
 
-<div id="page">
-    <header id="fh5co-header" class="fh5co-cover js-halfheight" role="banner"
-            style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center">
-                    <div class="display-t js-halfheight">
-                        <div class="display-tc js-halfheight animate-box" data-animate-effect="fadeIn">
-                            <div class="profile-thumb" style="background: url(images/user-1.png);"></div>
-                            <h1><span>SoftCrafts</span></h1>
-                            <h2><span>Filip Thamasett</span></h2>
-                            <h3>
-                                <span>Freelancer as</span>
-                            </h3>
-                            <h3><span>Cloud Architect / Software Developer</span></h3>
-                            <p>
-                            <ul class="fh5co-social-icons">
-                                <li><a href="https://www.linkedin.com/in/filip-thamasett-78b259133/"><i
-                                        class="icon-linkedin2"></i></a></li>
-                                <li><a href="https://github.com/filip-sc"><i class="icon-github-with-circle"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
-
-    <div id="fh5co-about" class="animate-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>SoftCrafts - IT Consulting</h2>
-                </div>
-            </div>
-            <div class="row flex-md-row-reverse">
-                <div class="col-md-4">
-                    <ul class="info">
-                        <li><span class="first-block">Full Name:</span><span class="second-block">Filip Thamasett</span>
-                        </li>
-                        <li><span class="first-block">Phone:</span><span class="second-block">(+49)176 9947 1230</span>
-                        </li>
-                        <li><span class="first-block">Email:</span><span
-                                class="second-block">filip.thamasett@softcrafts.io</span></li>
-                        <li><span class="first-block">Website:</span><span
-                                class="second-block">softcrafts.io</span></li>
-                        <li><span class="first-block">Residence:</span><span class="second-block">Munich, Germany</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-8">
-                    <p>I am an IT Consultant specializing in cloud migrations and strategies, focused on designing
-                        tailored solutions that enable organizations to fully leverage cloud adoption. Drawing on my
-                        background as a Full-Stack Developer, I understand the challenges and constraints traditional
-                        product teams face. I am committed to sharing knowledge and delivering strategies that align
-                        with each organization’s unique needs. My network of freelancing colleagues can provide
-                        additional specialized workforce for any short term migration and build up plan.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="fh5co-features" class="animate-box">
-        <div class="container">
-            <div class="services-padding">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                        <h2>What I Offer</h2>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 text-center">
-                        <div class="feature-left">
-							<span class="icon">
-								<i class="icon-cloud3"></i>
-							</span>
-                            <div class="feature-copy">
-                                <h3>Cloud Consulting</h3>
-                                <p>The main aspect is to make your cloud experience as smooth as possible.
-                                    Whether your goal is to migrate initially to the cloud or to reassemble your current
-                                    cloud strategies I can provide guidance and help you understand the impact
-                                    on your organisation.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <div class="feature-left">
-							<span class="icon">
-								<i class="icon-list"></i>
-							</span>
-                            <div class="feature-copy">
-                                <h3>Site Reliability Engineering</h3>
-                                <p>Providing a mechanism on how to ensure that your system ist healthy and available. I
-                                    can help you setting up a emergency response, monitoring strategy and other aspects
-                                    of
-                                    SRE to secure your system from outages. With the main goal of unlocking the agility
-                                    of your System while not violating any service's SLO.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 text-center">
-                        <div class="feature-left">
-							<span class="icon">
-								<i class="icon-book"></i>
-							</span>
-                            <div class="feature-copy">
-                                <h3>Knowledge Transfer</h3>
-                                <p>One of the most important parts for me is to spread the knowledge within your
-                                    organisation.
-                                    Giving trainings and spread knowledge is a crucial aspect of a successful cloud
-                                    migration.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="fh5co-resume" class="fh5co-bg-color">
-        <div class="container">
-            <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Experience & Skills</h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 col-md-offset-0">
-                    <ul class="timeline">
-                        <li class="timeline-heading text-center animate-box">
-                            <div><h3>Work Experience</h3></div>
-                        </li>
-                        <li class="animate-box timeline-unverted">
-                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3 class="timeline-title">Cloud Architect and GitHub Consultant</h3>
-                                    <span class="company">Cultural Collection Service</span>
-                                    <span class="company">Employees > 1.000</span>
-                                    <span class="company">11/2021 - 02/2022 & 09/2022 - current</span>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Led significant cloud transformation initiatives, orchestrating the end-to-end
-                                        migration to GCP and GitHub Enterprise to virtually eliminate all on-premise
-                                        costs. Designed and implemented an automated backup and disaster recovery
-                                        strategy, cutting costs by 80% while enhancing resilience. Standardized
-                                        inter-service security, optimized CI/CD pipelines, and modernized
-                                        infrastructure, including the architecture and implementation of all
-                                        public-facing and internal application infrastructure. My work consistently
-                                        delivered scalable, resilient, and highly secure service delivery while driving
-                                        substantial cost efficiencies.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="animate-box timeline-inverted">
-                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3 class="timeline-title">Cloud Architect</h3>
-                                    <span class="company">Automobile Company</span>
-                                    <span class="company">Employees > 10.000</span>
-                                    <span class="company">06/2022 - 06/2025</span>
-                                </div>
-                                <div class="timeline-body">Led the development of innovative solutions in
-                                    transportation, including a remote driving system with advanced routing and
-                                    scheduling. Designed and implemented a seamless transition from on-premise systems
-                                    to Azure Cloud, reducing platform outages. Refined server architecture using
-                                    Golang and introduced event-driven microservices to enhance scalability and simplify
-                                    feature implementation. Acted as Technical Lead, overseeing a team of 4 developers,
-                                    focusing on Go Microservice Development, cloud migration, and event-based
-                                    architecture. Supervised the Go-Live of the entire platform and designed robust
-                                    security concepts for both service- and application-level protection. Leveraged the
-                                    Azure Cloud Adoption Framework to drive scalable growth and introduced company-wide
-                                    cloud architecture using Azure, Azure Entra, and Azure DevOps.
-                                    <p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="animate-box timeline-unverted">
-                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3 class="timeline-title">Cloud Architect</h3>
-                                    <span class="company">Retail Company</span>
-                                    <span class="company">Employees > 500.000</span>
-                                    <span class="company">05/2019 - 05/2022</span>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Cloud migration for one of the biggest retailer in Germany. Reduced onboarding
-                                        time for approximately 80 product teams by automating and templating GCP
-                                        service and infrastructure deployments with Azure DevOps integration. Enhanced
-                                        platform uptime awareness by developing SRE strategies and defining SLOs and
-                                        SLAs for critical components. Cut backup costs by 50% through an automated
-                                        backup and recovery strategy, utilizing cold storage classes and retention
-                                        policies. Strengthened security across the platform by implementing
-                                        BeyondCorp-based concepts. Prevented unforeseen cost increases by deploying
-                                        customized anomaly detection solutions in Golang for both Azure and GCP.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted animate-box">
-                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3 class="timeline-title">Senior Software Engineer</h3>
-                                    <span class="company">Ubirch</span>
-                                    <span class="company">Employees < 50</span>
-                                    <span class="company">04/2021 - 05/2021 & 08/2021 - 09/2021</span>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Planned and built microservices for the digital vaccination certificate system,
-                                        securing encrypted vaccination records using decentralized storage for improved
-                                        security and data integrity. Assisted in migrating legacy applications to a
-                                        cloud-native environment and introduced a highly efficient database solution for
-                                        handling high-concurrency operations. Defined SLOs and SLAs for key components,
-                                        and developed custom monitoring metrics to track performance and visualize
-                                        results. Automated database migrations to streamline processes and improve
-                                        overall system reliability. Implemented stress testing to simulate high loads,
-                                        to find bottlenecks and optimize performance.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-unverted animate-box">
-                            <div class="timeline-badge"><i class="icon-suitcase"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3 class="timeline-title">Cloud Engineer and Fullstack Developer</h3>
-                                    <span class="company">Rohde & Schwarz</span>
-                                    <span class="company">01/2018 - 08/2019</span>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Introduced a web shop for online purchases of cloud applications as a Fullstack
-                                        Developer and Cloud Engineer. Planned, developed, and implemented cloud-native
-                                        microservices to support the shop's operations. Created CI/CD concepts and
-                                        processes for the shop in OpenShift on Azure, ensuring smooth and reliable
-                                        deployments. Managed and operated Azure Service Buses, enabling staging
-                                        mechanisms to minimize outages during releases and enhance feature reliability.
-                                    </p>
-                                </div>
-                            </div>
-                        </li>
-                        <br>
-                        <li class="timeline-heading text-center animate-box">
-                            <div><h3>Education</h3></div>
-                        </li>
-                        <li class="animate-box timeline-inverted">
-
-                            <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3 class="timeline-title">Masters Degree</h3>
-                                    <span class="company">Technical University Munich</span>
-                                    <span class="company">2015 - 2018</span>
-                                    <span class="company">Master of Science: Electrical Engineering and Information Technology</span>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Master thesis: Deep neuronal networks for pointer-based multi-face landmark
-                                        detection.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-unverted animate-box">
-                            <div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h3 class="timeline-title">Bachelors Degree</h3>
-                                    <span class="company">University of Applied Science Munich</span>
-                                    <span class="company">2011 - 2015</span>
-                                    <span class="company">Bachelor of Science: Engineering Physics</span>
-                                </div>
-                                <div class="timeline-body">
-                                    <p>Bachelor thesis: Developing a finger-pointing-gesture control.</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="fh5co-started" class="fh5co-bg-dark">
-        <div class="overlay"></div>
-        <div class="container">
-            <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <p>Ready to start your cloud migration? Let’s discuss how I can help you achieve your goals. Feel
-                        free to reach out—I'd be happy to provide more insights or dive deeper into your project’s
-                        needs.</p>
-                    <p><a href="mailto:filip.thamasett@softcrafts.io" class="btn btn-default btn-lg">Schedule a
-                        Consultation</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- <div id="fh5co-consult">
-         <div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
-             <div class="overlay"></div>
-         </div>
-         <div class="choose animate-box">
-             <h2>Contact</h2>
-             <form method="post" name="contactForm" id="contactForm">
-                 <div class="row form-group">
-                     <div class="col-md-6">
-                         <input type="text" name="fname" id="fname" class="form-control" placeholder="Your firstname">
-                     </div>
-                 </div>
-                 <div class="row form-group">
-                     <div class="col-md-6">
-                         <input type="text" name="lname" id="lname" class="form-control" placeholder="Your lastname">
-                     </div>
-                 </div>
-
-                 <div class="row form-group">
-                     <div class="col-md-12">
-                         <input type="email" name="email" id="email" class="form-control"
-                                placeholder="Your email address">
-                     </div>
-                 </div>
-
-                 <div class="row form-group">
-                     <div class="col-md-12">
-                         <input type="text" name="subject" id="subject" class="form-control"
-                                placeholder="Your subject of this message">
-                     </div>
-                 </div>
-
-                 <div class="row form-group">
-                     <div class="col-md-12">
-                         <textarea name="message" id="message" cols="30" rows="10" class="form-control"
-                                   placeholder="Say something about us"></textarea>
-                     </div>
-                 </div>
-                 <div class="form-group">
-                     <input type="submit" value="Send Message" class="btn btn-primary">
-                     <div class="submitting"></div>
-                 </div>
-
-             </form>
-             <div id="form-message-warning"></div>
-             <div id="form-message-success">
-                 Your message was sent, thank you!
-             </div>
-         </div>
-     </div> -->
-
-</div>
-
-<div id="fh5co-footer">
+<nav class="nav" id="nav">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p>Copyright © SoftCrafts IT - Consulting, Inh. Filip Thamasett. All Rights Reserved.
-                    <a href="impressum.html">Impressum</a></p>
+        <a href="#top" class="brand">Soft<span>Crafts</span></a>
+        <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+            <svg width="24" height="24"><use href="#i-menu"/></svg>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="mailto:filip.thamasett@softcrafts.io" class="btn btn-primary btn-sm">Get in touch</a></li>
+        </ul>
+    </div>
+</nav>
+
+<header class="hero" id="top">
+    <div class="container">
+        <div>
+            <span class="eyebrow"><span class="dot"></span>Freelance · Available for projects</span>
+            <h1>Filip Thamasett<br><span class="grad">SoftCrafts</span></h1>
+            <p class="role">Cloud Architect &amp; Applied AI Engineer</p>
+            <p class="lead">7+ years designing cloud platforms on GCP and Azure that stay secure, reliable and
+                cost-efficient at scale – and building production AI on top of them: RAG pipelines, agentic
+                workflows and real-time voice AI.</p>
+            <div class="hero-actions">
+                <a href="mailto:filip.thamasett@softcrafts.io" class="btn btn-primary">
+                    <svg width="18" height="18"><use href="#i-mail"/></svg>Schedule a consultation</a>
+                <a href="#experience" class="btn btn-ghost">View experience</a>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/filip-thamasett-78b259133/" aria-label="LinkedIn">
+                        <svg><use href="#i-linkedin"/></svg></a>
+                    <a href="https://github.com/filip-sc" aria-label="GitHub"><svg><use href="#i-github"/></svg></a>
+                </div>
+            </div>
+        </div>
+        <div class="portrait">
+            <img src="images/user-1.png" alt="Portrait of Filip Thamasett" width="648" height="726">
+            <div class="badge-float">
+                <span class="ic"><svg><use href="#i-award"/></svg></span>
+                <div><strong>Claude Certified Architect</strong>Professional · 2026</div>
             </div>
         </div>
     </div>
-</div>
+    <div class="container">
+        <div class="stats">
+            <div class="stat"><b>7+</b><span>years in cloud architecture</span></div>
+            <div class="stat"><b>50+</b><span>product teams migrated &amp; enabled</span></div>
+            <div class="stat"><b>80%</b><span>backup cost reduction delivered</span></div>
+            <div class="stat"><b>4</b><span>AI &amp; cloud certifications</span></div>
+        </div>
+    </div>
+</header>
 
-<div class="gototop js-top">
-    <a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
-</div>
+<main>
+    <section id="about">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="kicker">About</span>
+                <h2>SoftCrafts – IT Consulting</h2>
+            </div>
+            <div class="about">
+                <div class="reveal">
+                    <p>I'm a <strong>Cloud Architect and Applied AI Engineer</strong> with <strong>7+ years designing
+                        and delivering cloud platforms on GCP and Azure</strong> – taking architecture decisions all the
+                        way to production across 50+ product teams. I've pitched cloud strategy at CEO and management
+                        level, secured the decision and owned the rollout, and I'm comfortable translating technical
+                        trade-offs for engineers and executives alike.</p>
+                    <p>Building on that foundation, I help German enterprises <strong>bring AI into production</strong> –
+                        from RAG systems over official documentation to agentic pipelines and real-time conversational
+                        voice products.</p>
+                    <p>With a hands-on <strong>full-stack background in Python and Golang</strong>, I don't just draw
+                        diagrams: I ship and operate the systems myself. My network of freelancing colleagues can add
+                        specialized capacity for short-term migration and build-up phases.</p>
+                </div>
+                <div class="info-card reveal">
+                    <dl>
+                        <div><dt>Name</dt><dd>Filip Thamasett</dd></div>
+                        <div><dt>Focus</dt><dd>Cloud Architecture · AI Engineering</dd></div>
+                        <div><dt>Email</dt><dd><a href="mailto:filip.thamasett@softcrafts.io">filip.thamasett@softcrafts.io</a></dd></div>
+                        <div><dt>Phone</dt><dd><a href="tel:+4917699471230">+49 176 9947 1230</a></dd></div>
+                        <div><dt>Location</dt><dd>Wörthsee / Munich, Germany</dd></div>
+                        <div><dt>Work mode</dt><dd>Remote &amp; on-site</dd></div>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- jQuery -->
-<script src="js/jquery.min.js"></script>
-<!-- jQuery Easing -->
-<script src="js/jquery.easing.1.3.js"></script>
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<!-- Waypoints -->
-<script src="js/jquery.waypoints.min.js"></script>
-<!-- Validate JS -->
-<script src="js/jquery.validate.min.js"></script>
-<!-- Stellar Parallax -->
-<script src="js/jquery.stellar.min.js"></script>
-<!-- Easy PieChart -->
-<script src="js/jquery.easypiechart.min.js"></script>
+    <section id="services" class="alt">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="kicker">Services</span>
+                <h2>What I offer</h2>
+                <p>From the first architecture decision to a system running reliably in production.</p>
+            </div>
+            <div class="grid-4">
+                <div class="card reveal">
+                    <div class="ic"><svg><use href="#i-cloud"/></svg></div>
+                    <h3>Cloud Architecture</h3>
+                    <p>Migration strategies and cloud-native platforms on GCP and Azure – designed for scalability,
+                        governance and substantially lower running costs.</p>
+                </div>
+                <div class="card reveal">
+                    <div class="ic"><svg><use href="#i-spark"/></svg></div>
+                    <h3>AI Engineering</h3>
+                    <p>Production LLM applications: RAG pipelines with grounded, source-backed answers, agentic
+                        workflows, LLM-based evaluation loops and low-latency voice AI.</p>
+                </div>
+                <div class="card reveal">
+                    <div class="ic"><svg><use href="#i-shield"/></svg></div>
+                    <h3>Reliability &amp; Security</h3>
+                    <p>SRE practices, SLOs, monitoring, disaster recovery and zero-trust security concepts that keep
+                        your systems available without slowing teams down.</p>
+                </div>
+                <div class="card reveal">
+                    <div class="ic"><svg><use href="#i-users"/></svg></div>
+                    <h3>Advisory &amp; Enablement</h3>
+                    <p>Technical leadership, executive-level strategy and hands-on knowledge transfer so your teams
+                        can own and evolve what we build together.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<!-- Main -->
-<script src="js/main.js"></script>
+    <section id="experience">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="kicker">Experience</span>
+                <h2>Selected projects</h2>
+            </div>
+            <ul class="timeline">
+                <li class="tl-item current reveal">
+                    <div class="tl-card">
+                        <div class="tl-top">
+                            <div>
+                                <h3>AI Platform Engineer</h3>
+                                <div class="tl-meta">IT Services Provider · Public Sector · Remote &amp; Berlin</div>
+                            </div>
+                            <span class="tl-date">Jun 2026 – Present</span>
+                        </div>
+                        <ul>
+                            <li><strong>AI-Driven Bureaucracy Automation:</strong> end-to-end development of a citizen-facing AI assistant designed to automate German bureaucratic processes, giving citizens a single conversational entry point to fragmented government services.</li>
+                            <li><strong>Ground-Up RAG Implementation:</strong> architected and built a Retrieval-Augmented Generation (RAG) system from scratch over official German government documentation, engineering the full ingestion and retrieval pipeline for accurate, grounded responses across a wide range of public services.</li>
+                            <li><strong>Agentic Web Scraping &amp; Form Discovery:</strong> designed an agentic scraping pipeline that crawls official government websites and leverages LLMs to autonomously evaluate pages.</li>
+                        </ul>
+                        <ul class="chips">
+                            <li>Python</li><li>Golang</li><li>RAG</li><li>LLMs</li><li>Agentic AI</li><li>Prompt Engineering</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="tl-item current reveal">
+                    <div class="tl-card">
+                        <div class="tl-top">
+                            <div>
+                                <h3>Software Engineer &amp; Cloud Architect</h3>
+                                <div class="tl-meta">Music Rights Collecting Society · 1,000+ employees · Remote &amp; Berlin</div>
+                            </div>
+                            <span class="tl-date">Nov 2021 – Present</span>
+                        </div>
+                        <ul>
+                            <li><strong>Migration Strategy:</strong> developed the GCP and GitHub Enterprise migration strategy for 50+ product teams and provided hands-on assistance during their migration, contributing to a scalable development environment.</li>
+                            <li><strong>Cost &amp; Infrastructure Optimization:</strong> eliminated almost all on-premise costs by shutting down legacy systems, and reduced annual costs by 50% by migrating on-premise traffic from Meshery to Apigee on GCP.</li>
+                            <li><strong>Security &amp; Disaster Recovery:</strong> centralized cloud security posture with Google Cloud Security Command Center (SCC), reduced users with administrative privileges by 20% through granular Cloud IAM policies, and saved 80% on backup costs with an automated disaster recovery strategy.</li>
+                            <li><strong>Network &amp; CI/CD Management:</strong> managed the public-facing load balancing infrastructure on GCP, including Cloud Armor and DNS, and reduced build times by 20% through a GitHub Actions migration.</li>
+                        </ul>
+                        <ul class="chips">
+                            <li>Golang</li><li>GCP</li><li>Apigee</li><li>Terraform</li><li>GitHub</li><li>Kubernetes</li><li>BigQuery</li><li>Cloud Run</li><li>Istio</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="tl-item reveal">
+                    <div class="tl-card">
+                        <div class="tl-top">
+                            <div>
+                                <h3>AI Solutions Engineer</h3>
+                                <div class="tl-meta">Aviation Training Company · Remote</div>
+                            </div>
+                            <span class="tl-date">Sep 2025 – Feb 2026</span>
+                        </div>
+                        <ul>
+                            <li><strong>AI product development:</strong> led end-to-end development of a conversational
+                                AI voice tutor for English training of aerospace personnel.</li>
+                            <li><strong>Real-time voice:</strong> engineered a low-latency voice interface with OpenAI,
+                                Vertex AI (Gemini) and Dialogflow; built a self-hosted POC with Nvidia's open-source
+                                speech LLM PersonaPlex.</li>
+                            <li><strong>High-concurrency backend:</strong> Python and WebSockets backend handling
+                                concurrent audio streams, balancing LLM accuracy against response speed.</li>
+                            <li><strong>Domain-specific RAG:</strong> grounded responses in proprietary aerospace
+                                documentation to minimize hallucinations.</li>
+                        </ul>
+                        <ul class="chips">
+                            <li>Python</li><li>OpenAI</li><li>Vertex AI</li><li>Gemini</li><li>HuggingFace</li><li>Dialogflow</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="tl-item reveal">
+                    <div class="tl-card">
+                        <div class="tl-top">
+                            <div>
+                                <h3>Technical Lead</h3>
+                                <div class="tl-meta">Mobility Company · Remote &amp; Düsseldorf</div>
+                            </div>
+                            <span class="tl-date">Jun 2022 – Jun 2025</span>
+                        </div>
+                        <ul>
+                            <li><strong>Greenfield Platform Architecture:</strong> acted as Technical Lead to architect and build an entirely new, "Uber-like" remote driving platform from scratch, establishing a highly reliable system that reduced platform outages by 90% for an automotive client.</li>
+                            <li><strong>Azure Ecosystem &amp; Cloud Adoption Framework:</strong> engineered the foundational infrastructure on Azure DevOps, Azure Entra and Azure Stack, designing the entire zero-to-one architecture in strict alignment with Azure's CAF for enterprise-grade governance, security and scalable growth from day one.</li>
+                            <li><strong>Cloud-Native &amp; Event-Driven Systems:</strong> refactored legacy applications into a modern event-driven architecture of stateless Golang and Python microservices, enabling horizontal scalability and seamless deployment rollouts.</li>
+                            <li><strong>Technical Strategy &amp; Leadership:</strong> directed a team of 4 developers and mentored 2 juniors, driving the technical vision, enforcing architectural best practices and securing executive buy-in for the overarching cloud strategy.</li>
+                        </ul>
+                        <ul class="chips">
+                            <li>Golang</li><li>Python</li><li>Azure</li><li>Terraform</li><li>PostgreSQL</li><li>Kubernetes</li><li>Helm</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="tl-item reveal">
+                    <div class="tl-card">
+                        <div class="tl-top">
+                            <div>
+                                <h3>Software Engineer &amp; Cloud Architect</h3>
+                                <div class="tl-meta">Retail Company · 500,000+ employees · Remote &amp; Heilbronn</div>
+                            </div>
+                            <span class="tl-date">May 2019 – May 2022</span>
+                        </div>
+                        <ul>
+                            <li><strong>Automation &amp; Onboarding:</strong> reduced onboarding time by 90% for 60+ product teams by implementing infrastructure-as-code (IaC) for GCP service deployments.</li>
+                            <li><strong>SRE &amp; Backup Strategy:</strong> enhanced uptime awareness by developing SRE strategies and defining SLOs/SLAs with Google Cloud's Stackdriver, and cut backup costs by 50% through automated backup and recovery using cold storage classes and retention policies.</li>
+                            <li><strong>Zero-Trust Security:</strong> strengthened security by implementing BeyondCorp-based concepts across the entire platform.</li>
+                            <li><strong>Financial Operations (FinOps):</strong> prevented unforeseen cost spikes with custom anomaly detection in Golang, using statistical analysis techniques such as Bollinger Bands across Azure and GCP.</li>
+                        </ul>
+                        <ul class="chips">
+                            <li>Golang</li><li>GCP</li><li>Terraform</li><li>Azure DevOps</li><li>Kubernetes</li><li>Docker</li><li>OIDC</li><li>Prometheus</li><li>Grafana</li><li>Stackdriver</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
 
-<script src="js/jquery.style.switcher.js"></script>
-<script>
-    $(function () {
-        $('#colour-variations ul').styleSwitcher({
-            defaultThemeId: 'theme-switch',
-            hasPreview: false,
-            cookie: {
-                expires: 30,
-                isManagingLoad: true
-            }
-        });
-        $('.option-toggle').click(function () {
-            $('#colour-variations').toggleClass('sleep');
-        });
-    });
-</script>
-<!-- End demo purposes only -->
+            <h3 class="earlier-title reveal">Earlier experience</h3>
+            <ul class="timeline">
+                <li class="tl-item compact reveal">
+                    <div class="tl-card">
+                        <div class="tl-top">
+                            <div>
+                                <h3>Senior Software Engineer</h3>
+                                <div class="tl-meta">Ubirch</div>
+                            </div>
+                            <span class="tl-date">2021</span>
+                        </div>
+                        <p>Cloud-native migration in Golang for the digital vaccination certificate system, improving
+                            system reliability by 20%.</p>
+                    </div>
+                </li>
+                <li class="tl-item compact reveal">
+                    <div class="tl-card">
+                        <div class="tl-top">
+                            <div>
+                                <h3>Full-Stack &amp; DevOps Engineer</h3>
+                                <div class="tl-meta">Rohde &amp; Schwarz</div>
+                            </div>
+                            <span class="tl-date">2018 – 2019</span>
+                        </div>
+                        <p>Launched a digital sales platform for cloud applications with CI/CD pipelines on
+                            OpenShift.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
 
+    <section id="skills" class="alt">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="kicker">Skills</span>
+                <h2>Toolbox</h2>
+            </div>
+            <div class="skills">
+                <div class="card reveal">
+                    <h3><span class="ic"><svg><use href="#i-cloud"/></svg></span>Cloud Platforms</h3>
+                    <ul class="chips">
+                        <li>Google Cloud (GCP)</li><li>Microsoft Azure</li><li>Apigee</li><li>Cloud Run</li>
+                        <li>BigQuery</li><li>Azure Entra</li>
+                    </ul>
+                </div>
+                <div class="card reveal">
+                    <h3><span class="ic"><svg><use href="#i-spark"/></svg></span>AI &amp; Machine Learning</h3>
+                    <ul class="chips">
+                        <li>LLMs</li><li>RAG</li><li>Agentic AI</li><li>Claude</li><li>OpenAI API</li><li>Vertex AI</li>
+                        <li>Dialogflow</li><li>HuggingFace</li><li>Speech-to-Text</li>
+                    </ul>
+                </div>
+                <div class="card reveal">
+                    <h3><span class="ic"><svg><use href="#i-code"/></svg></span>Languages</h3>
+                    <ul class="chips"><li>Golang</li><li>Python</li></ul>
+                </div>
+                <div class="card reveal">
+                    <h3><span class="ic"><svg><use href="#i-tool"/></svg></span>Tools &amp; Platforms</h3>
+                    <ul class="chips">
+                        <li>Terraform</li><li>Kubernetes</li><li>Docker</li><li>Helm</li><li>Postgres</li>
+                        <li>Prometheus</li><li>Grafana</li><li>GitHub Enterprise</li><li>Azure DevOps</li><li>Keycloak</li>
+                    </ul>
+                </div>
+                <div class="card reveal">
+                    <h3><span class="ic"><svg><use href="#i-net"/></svg></span>Architecture &amp; Security</h3>
+                    <ul class="chips">
+                        <li>Event-Driven Architecture</li><li>Microservices</li><li>Cloud Networking &amp; DNS</li>
+                        <li>Global Load Balancing</li><li>Zero Trust</li><li>SecOps</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <div class="section-head reveal">
+                <span class="kicker">Credentials</span>
+                <h2>Certifications &amp; Education</h2>
+            </div>
+            <div class="two-col">
+                <div class="list-card reveal">
+                    <h3>Certifications</h3>
+                    <div class="list-row">
+                        <span class="ic"><svg><use href="#i-award"/></svg></span>
+                        <div><b>Claude Certified Architect – Professional</b><span>Anthropic</span></div>
+                        <span class="when">Aug 2026</span>
+                    </div>
+                    <div class="list-row">
+                        <span class="ic"><svg><use href="#i-award"/></svg></span>
+                        <div><b>Generative AI LLMs Associate</b><span>Nvidia</span></div>
+                        <span class="when">Jan 2026</span>
+                    </div>
+                    <div class="list-row">
+                        <span class="ic"><svg><use href="#i-award"/></svg></span>
+                        <div><b>Generative AI Leader</b><span>Google Cloud</span></div>
+                        <span class="when">Jul 2025</span>
+                    </div>
+                    <div class="list-row">
+                        <span class="ic"><svg><use href="#i-award"/></svg></span>
+                        <div><b>Professional Cloud Architect</b><span>Google Cloud</span></div>
+                        <span class="when">Mar 2025</span>
+                    </div>
+                </div>
+                <div class="list-card reveal">
+                    <h3>Education</h3>
+                    <div class="list-row">
+                        <span class="ic"><svg><use href="#i-cap"/></svg></span>
+                        <div><b>M.Sc. Electrical Engineering and Information Technology</b>
+                            <span>Technical University of Munich (TUM)<br>Thesis: Deep neural networks for pointer-based
+                                multi-face landmark detection</span></div>
+                        <span class="when">2015 – 2017</span>
+                    </div>
+                    <div class="list-row">
+                        <span class="ic"><svg><use href="#i-cap"/></svg></span>
+                        <div><b>B.Sc. Engineering Physics</b>
+                            <span>Munich University of Applied Sciences<br>Thesis: Developing a finger-pointing gesture
+                                control</span></div>
+                        <span class="when">2011 – 2015</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta" id="contact">
+        <div class="container reveal">
+            <h2>Let's build something that works in production.</h2>
+            <p>Planning an AI product, a RAG system or a cloud migration? Let's discuss how I can help you reach your
+                goals – I'm happy to dive into your project's needs.</p>
+            <div class="hero-actions">
+                <a href="mailto:filip.thamasett@softcrafts.io" class="btn btn-primary">
+                    <svg width="18" height="18"><use href="#i-mail"/></svg>Schedule a consultation</a>
+                <a href="https://www.linkedin.com/in/filip-thamasett-78b259133/" class="btn btn-ghost">Connect on LinkedIn</a>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <div class="container">
+        <span>© <span id="year">2026</span> SoftCrafts IT-Consulting, Inh. Filip Thamasett. All rights reserved.</span>
+        <a href="impressum.html">Impressum</a>
+    </div>
+</footer>
+
+<script src="js/site.js"></script>
 </body>
 </html>
-
