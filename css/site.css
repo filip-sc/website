@@ -166,6 +166,7 @@ h1, h2, h3 { font-family: var(--display); line-height: 1.2; margin: 0; letter-sp
 .badge-float strong { display: block; color: #fff; font-size: 14px; }
 .badge-float .ic { width: 32px; height: 32px; border-radius: 8px; display: grid; place-items: center; background: linear-gradient(135deg, #2dd4bf, #818cf8); color: #fff; }
 .badge-float .ic svg { width: 18px; height: 18px; }
+.badge-float .cert { width: 48px; height: 48px; margin: -6px 0; flex: none; }
 
 .stats { grid-column: 1 / -1; position: relative; z-index: 1; display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 72px; }
 .stat { border-left: 2px solid rgba(255, 255, 255, .12); padding: 4px 0 4px 18px; }
